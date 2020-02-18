@@ -1,0 +1,20 @@
+{
+    "name": "alexandershevchuk/pager",
+    "description": "A library to split results into multiple pages",
+    "keywords": ["pager", "paginator", "pagination"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Shevchuk",
+            "email": "alexandershevchuk556@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ASPager\\": "src/"
+        }
+    }
+}
